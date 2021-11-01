@@ -1,0 +1,32 @@
+html, body {
+    
+    width: 100%;
+    height: 100%;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+* {
+    font-weight: 400 !important;
+}
+
+@font-face {
+    font-family: 'ProximaNova-Reg';
+    font-family: 'ProximaNova-Xbold';
+    src: local('ProximaNova-Reg"'), url('../fonts/ProximaNova-Reg.otf') format('opentype');
+    src: local('ProximaNova-Reg"'), url('../fonts/ProximaNova-Xbold.otf') format('opentype');
+}
+
+* {
+    font-family: 'ProximaNova-Reg', sans-serif;
+}
+
+// @import "../styles/css/reset.css";
+@import "./scss/components/reset";
+@import "./scss/helpers/mixins";
+@import "./scss/helpers/placeholders";
+@import "./scss/site/main-site";
+@import "./scss/components/line-text";
+@import "./scss/helpers/media_queries";

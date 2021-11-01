@@ -1,0 +1,430 @@
+$largestDesktop: "(min-width: 1401px)";
+$largeDesktop: "(min-width: 1201px) and (max-width: 1400px)";
+$laptop: "(min-width: 1200px)";
+$phone: "(max-width: 575.98px)";
+
+
+@media #{$largestDesktop} {
+}
+
+@media #{$largeDesktop} {
+}
+
+@media #{$laptop} {
+    
+}
+
+@media (max-width: 1199.98px) { 
+  
+}
+
+// maybe the problem one idk yet
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (max-width: 991.98px) {
+    
+}
+
+// this query could be problamatic 
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+  
+}
+
+// for big screen tv (all)
+@media (min-width: 768px) {
+
+}
+
+// potential one smallest screen width
+// TRUE NAVY BLUE BACKGROUND
+
+@media (max-width: 767.98px) {
+    
+ 
+}
+
+// (all)
+@media (min-width: 576px) {   
+
+}
+
+@media #{$phone} {
+    
+    main {
+        
+        .header {
+
+            .header-text {
+        
+                h1 {
+                    
+                    font-size: 2.9rem;
+                }
+        
+                h2 {
+                    
+                    font-size: 1.2rem;
+                    padding-bottom: 0.3rem;
+                }
+            }
+        }
+
+        .tag-it-section {
+            
+            ul {
+                
+                margin-top: 2.4rem;
+                
+                li {
+                    
+                    display: inline-block;
+                    padding: 1.5rem ;
+                }
+            }
+        
+            p {
+        
+                margin-top: 2rem;
+                font-size: 1.3rem;
+                margin-left: auto;
+                margin-right: auto;
+                width: 95% !important;
+
+                .logo-container {
+
+                    margin-left: 0.5rem;
+                    
+                    .logo-image-placement {
+    
+    
+    
+                        img {
+                          
+                            
+    
+                            &:nth-child(1) {
+                                max-width: 35px;
+                                position: relative;
+                                top: 5px;
+                            }
+    
+                            &:nth-child(2) {
+                                
+                                max-width: 70px;
+                                margin-left: 0.4rem;
+                                position: relative;
+                                top: 2.4px;
+                            }
+    
+    
+                        }
+    
+                    
+    
+                    }
+                }
+            }
+        }
+    }
+    
+    .instructions-section {
+        
+        .instructions-grid-container {
+            
+            margin-top: 3.7rem !important;
+            
+            .row {
+                
+                text-align: center;
+                display: initial !important;
+                justify-content: center;
+                align-content: center;
+        
+                /* Create two equal columns that sits next to each other */
+            
+                .column {
+
+                    // padding: 10px;
+                    padding: 0px !important;
+                    margin: 0rem !important;
+                    max-width: 100% !important;
+                    
+                    p {
+                        
+                        // max-width: 80%;
+                        padding-bottom: 2rem;
+                        padding-top: 0.5rem;
+                        // max-width: 100% !important;
+                        max-width: 95% !important;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+
+                    ul {
+                        margin-top: -0.5rem !important;
+                        padding-bottom: 1.7rem !important;
+
+                        
+
+
+                    }
+                }
+            }
+        }
+    }
+
+    .official-rules-section {
+        
+        padding-bottom: 3rem;
+
+        p {
+            width: 95% !important;
+            text-align: center !important;
+            // word-spacing: 0.05rem;
+        }
+
+        ul {
+
+            padding-right: 3rem !important;
+            li {
+                width: 100% !important;
+                text-align: center !important;
+            }
+        }
+
+        ol {
+            padding-right: 3rem !important;
+            li {
+                width: 100% !important;
+                text-align: center !important;
+            }
+        }
+
+        .nested-letter-list {
+
+            
+                
+            padding-right: 3rem !important;
+            // width: 100% !important;
+
+            .nested-letters-styles {
+
+                // margin-top: 1.3rem;
+                text-align: left;
+                font-size: 0.65rem;
+                margin-top: 1.3rem;
+                // width: 90%;
+                width: 100% !important;
+                
+        }
+
+        
+    }
+
+        .rules {
+            
+            margin-top: 2.8rem;
+            padding-bottom: 0.5rem;
+            width: 95%;
+            text-align: center !important;
+        }
+
+        .disclosure {
+            
+            margin-top: 1.3rem;
+            text-align: center;
+            font-size: 0.65rem;
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-height: 450px) {
+
+}
+
+// (all)
+@media (max-height: 1023px) {}
+$largestDesktop: "(min-width: 1401px)";
+$largeDesktop: "(min-width: 1201px) and (max-width: 1400px)";
+$laptop: "(min-width: 1200px)";
+$phone: "(max-width: 575.98px)";
+
+
+@media #{$largestDesktop} {
+}
+
+@media #{$largeDesktop} {
+}
+
+@media #{$laptop} {
+    
+}
+
+@media (max-width: 1199.98px) { 
+  
+}
+
+// maybe the problem one idk yet
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (max-width: 991.98px) {
+    
+}
+
+// this query could be problamatic 
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+  
+}
+
+// for big screen tv (all)
+@media (min-width: 768px) {
+
+}
+
+// potential one smallest screen width
+// TRUE NAVY BLUE BACKGROUND
+
+@media (max-width: 767.98px) {
+    
+ 
+}
+
+// (all)
+@media (min-width: 576px) {   
+
+}
+
+@media #{$phone} {
+    
+    main {
+        
+        .header {
+
+            .header-text {
+        
+                h1 {
+                    
+                    font-size: 2.9rem;
+                }
+        
+                h2 {
+                    
+                    font-size: 1.2rem;
+                    padding-bottom: 0.3rem;
+                }
+
+                img {
+                    max-width: 100% !important;
+                    width: 100% !important;
+                }
+            }
+        }
+
+        .tag-it-section {
+            
+            ul {
+                
+                margin-top: 2.4rem;
+                
+                li {
+                    
+                    display: inline-block;
+                    padding: 1.5rem ;
+                }
+            }
+        
+            p {
+        
+                margin-top: 2rem;
+                font-size: 1.3rem;
+                margin-left: auto;
+                margin-right: auto;
+                width: 95% !important;
+            }
+        }
+    }
+    
+    .instructions-section {
+        
+        .instructions-grid-container {
+            
+            margin-top: 3.7rem !important;
+            
+            .row {
+                
+                text-align: center;
+                display: initial !important;
+                justify-content: center;
+                align-content: center;
+        
+                /* Create two equal columns that sits next to each other */
+            
+                .column {
+
+                    // padding: 10px;
+                    padding: 0px !important;
+                    margin: 0rem !important;
+                    max-width: 100% !important;
+                    
+                    p {
+                        
+                        // max-width: 80%;
+                        padding-bottom: 2rem;
+                        padding-top: 0.5rem;
+                        // max-width: 100% !important;
+                        max-width: 95% !important;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .official-rules-section {
+        
+        padding-bottom: 3rem;
+
+        p {
+            width: 70%;
+            text-align: center;
+        }
+
+        .rules {
+            
+            margin-top: 2.8rem;
+            padding-bottom: 0.5rem;
+            width: 95%;
+        }
+
+        .disclosure {
+            
+            margin-top: 1.3rem;
+            text-align: center;
+            font-size: 0.65rem;
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-height: 450px) {
+
+}
+
+// (all)
+@media (max-height: 1023px) {}

@@ -1,0 +1,43 @@
+main {
+
+    .tag-it-section {
+        
+        h2 { 
+            
+            // horizontal line with text (width of the line, margin top)
+            // @include line-text(85%, 4.7rem);
+            @include line-text(72%, 4.7rem);
+    
+            span { 
+                @extend %white-background-text;
+            }
+        } 
+    }
+
+    .instructions-section {
+        
+        h2 { 
+            
+            // horizontal line with text (width of the line, margin top)
+            @include line-text(83%, 4.5rem);
+    
+            span { 
+                @extend %white-background-text;
+            }
+        } 
+    }
+
+    .official-rules-section {
+
+        h2 { 
+            
+            // horizontal line with text (width of the line, margin top)
+            @include line-text(83%, 2rem);
+    
+            span { 
+                @extend %white-background-text;
+                
+            }
+        } 
+    }
+}

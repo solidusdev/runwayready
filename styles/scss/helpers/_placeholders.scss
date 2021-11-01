@@ -1,0 +1,9 @@
+%white-background-text {
+    
+    // these rules give the illusion of the text being separated with the line
+    font-weight: 500;
+    background:black;
+    padding: 0 10px; // the spacing between the white background and text
+    text-transform: uppercase;
+    color: white;
+}
